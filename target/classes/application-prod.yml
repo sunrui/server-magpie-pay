@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-eb3274mwm47jion50.mysql.dubai.rds.aliyuncs.com:3306/shallchic_rt_sa?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT-0&useSSL=false
+    username: u_shallchic_mgr
+    password: 'sHAlLu_sh(&allchic_Xo!'
