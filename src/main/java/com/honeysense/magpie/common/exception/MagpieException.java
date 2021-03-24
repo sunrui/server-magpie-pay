@@ -31,8 +31,4 @@ public class MagpieException extends RuntimeException {
     public synchronized Throwable getCause() {
         return super.getCause();
     }
-
-    public static void triggerParseFailed() {
-//        throw new SpiderException("parse failed");
-    }
 }
