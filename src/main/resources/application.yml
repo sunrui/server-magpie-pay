@@ -2,7 +2,7 @@ spring:
   profiles:
     active: local
   application:
-    name: shallchic-spider
+    name: server-magpie-pay
   mvc:
     throw-exception-if-no-handler-found: true
   jackson:

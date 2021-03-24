@@ -159,7 +159,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <mainClass>com.project.spider.SpiderApplication</mainClass>
+                    <mainClass>com.honeysense.magpie.MagpiePayApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shallchic_spider?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT-0&useSSL=false
+    url: jdbc:mysql://localhost:3306/magpie_pay?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT-0&useSSL=false
     username: root
     password: root

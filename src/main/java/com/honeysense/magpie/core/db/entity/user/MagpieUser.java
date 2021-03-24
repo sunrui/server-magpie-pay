@@ -23,4 +23,6 @@ public class MagpieUser extends MagpieEntity {
     @NotNull
     @Enumerated(EnumType.STRING)
     private MagpieUserRole role;
+    @NotNull
+    private Boolean enable;
 }

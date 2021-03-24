@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://rm-bp18j554eu8d87072ro.mysql.rds.aliyuncs.com:3306/shallchic_spider?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT-7&useSSL=false&allowMultiQueries=true
-    username: user_wr
-    password: 7uz!Juxh

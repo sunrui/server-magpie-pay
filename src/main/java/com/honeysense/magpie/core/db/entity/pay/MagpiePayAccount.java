@@ -6,21 +6,19 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 @Entity
 @Getter
 @Setter
-public class MaggiePayOrder extends MagpieUserEntity {
+public class MagpiePayAccount extends MagpieUserEntity {
     @NotNull
-    private MagpiePayGateway magpiePayGateway;
-    @NotNull
-    private String customerId;
-    @NotBlank
-    private String payload;
+    private Integer openId;
     @NotNull
     @Min(0)
-    private BigDecimal amount;
+    private BigDecimal balance;
+    @NotNull
+    @Min(0)
+    private BigDecimal freezeBalance;
 }

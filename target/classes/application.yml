@@ -2,7 +2,7 @@ spring:
   profiles:
     active: local
   application:
-    name: shallchic-spider
+    name: server-magpie-pay
   mvc:
     throw-exception-if-no-handler-found: true
   jackson:
@@ -13,7 +13,7 @@ spring:
   jpa:
     show-sql: false
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL57Dialect
